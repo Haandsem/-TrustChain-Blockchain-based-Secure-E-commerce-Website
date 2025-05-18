@@ -1,0 +1,19 @@
+.product-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  border-radius: 1rem;
+  will-change: transform, box-shadow;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
